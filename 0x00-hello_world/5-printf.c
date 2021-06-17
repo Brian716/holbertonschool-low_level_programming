@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-/**
- * main - function prints string with pucts
- * Return: Always 0 (Success)
- */
+/* Displaying a string on screen with puts */
 
 int main(void)
 {
