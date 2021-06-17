@@ -2,7 +2,7 @@
 
 /* Displaying a string on screen with puts */
 
-int main(void)
+int main()
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
