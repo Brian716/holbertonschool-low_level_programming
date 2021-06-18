@@ -11,8 +11,11 @@ int A = 48;
 while (A <= 57)
 {
 putchar(A);
+if (A != 57)
+{
 putchar(44);
 putchar(32);
+}
 A++;
 }
 putchar('\n');
