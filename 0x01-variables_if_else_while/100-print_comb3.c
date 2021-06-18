@@ -15,8 +15,11 @@ while (B <= 57)
 {
 putchar(A);
 putchar(B);
+if (A != 56)
+{
 putchar(44);
 putchar(32);
+}
 B++;
 }
 A++;
