@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _abs - detects a lowercase or uppercase character that is used.
+ * print_last_digit - detects a lowercase or uppercase character that is used.
  * _putchar - writes the character c to stdout
  * @c: The character to print
  *
@@ -9,16 +9,18 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int _abs(int c)
+int print_last_digit(int c)
 {
 int result;
-if (c < 0)
+if (c >= 0)
 {
-result = c * -1;
+result = c % 10;
+_putchar(result + '0');
+return (result);
 }
 else
 {
-result = c;
-}
+result = c % 10;
 return (result);
+}
 }
