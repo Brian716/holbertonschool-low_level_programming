@@ -2,8 +2,7 @@
 
 /**
  * print_alphabet_x10 - prints alphabet 10 times straight.
- * print_alphabet - prints the alphabet in lowercase
- * _putchar - calling function _putchar
+ * putchar - calling function _putchar
  * Return: 0
  */
 
