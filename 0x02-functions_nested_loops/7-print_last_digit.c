@@ -22,6 +22,7 @@ else
 {
 result = c % 10;
 result = result * -1;
+_putchar (result + '0');
 return (result);
 }
 }
