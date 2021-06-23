@@ -13,13 +13,15 @@ int A = 48;
 int B = 48;
 int C = 48;
 int D = 48;
-while (A <= 2)
+while (A <= 50)
 {
-while (B <= 9)
+while (B <= 57)
 {
-while (C <= 5)
+if (B != 52 || A != 50)
 {
-while (D <= 9)
+while (C <= 53)
+{
+while (D <= 57)
 {
 _putchar(A);
 _putchar(B);
@@ -34,6 +36,11 @@ D = 48;
 }
 B++;
 C = 48;
+}
+else
+{
+B = B + 6;
+}
 }
 A++;
 B = 48;
