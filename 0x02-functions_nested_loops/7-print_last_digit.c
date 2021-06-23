@@ -15,12 +15,13 @@ int result;
 if (c >= 0)
 {
 result = c % 10;
-_putchar(result + '0');
+_putchar (result + '0');
 return (result);
 }
 else
 {
 result = c % 10;
+result = result * -1;
 return (result);
 }
 }
