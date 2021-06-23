@@ -7,13 +7,7 @@
 
 int main(void)
 {
-	char a = 'a';
-	int b = (int)a;
-	int c = 'H';
+	int c = 18 / 10;
 	printf("%d, \n", c);
-	printf("%d,\n", b);
-	int r = 1;
-	putchar(r);
-	putchar('\n');
-	return (0);
+        return (0);
 }
